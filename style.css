@@ -1,0 +1,112 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 312px;
+}
+
+@media(max-width: 767px) {
+	.footer {
+		flex-direction: column;
+	}
+
+	.logo {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 40px;
+	}
+
+	.logo p,.logo span {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.item ul {
+		display: flex;
+		flex-direction: column;
+		padding: 0;
+		margin: 0;
+	}
+}
+
+
+body {
+	line-height: 30px;
+	font-family: Noto Sans, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+.footer {
+	background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/footer-bg-lg.png?raw=true");
+	margin: 0 auto;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 50px 0;
+}
+
+.logo p,.logo span {
+	font-size: 20px;
+}
+
+.logo span a {
+	color: #9e9e9e;
+}
+
+.logo h2 a {
+	background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/2f8d8c7a6133b448ecff5bf0a3d282b87b7c6a7e/2024%20web-camp/logo.svg");
+	display: block;
+	width: 90px;
+	height: 40px;
+	overflow: hidden;
+	text-indent: 101%;
+	white-space: nowrap;
+	margin-bottom: 15px;
+}
+
+.item {
+	display: flex;
+	flex-direction: column;
+}
+
+.item ul {
+	list-style-type: none;
+}
+
+.item li {
+	background: #ffffff;
+	padding: 8px 24px;
+	border-radius: 8px;
+	border: 1px solid #c1c1c1;
+	margin-bottom: 12px;
+	width: 306px;
+}
+
+.item li a {
+	font-size: 20px;
+	font-weight: 400;
+	color: #3b3b3b;
+}
+
+.item img {
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.item .list {
+	background: #000;
+}
+
+.item .list a {
+	font-weight: 700;
+	color: #ffffff;
+}
